@@ -1,13 +1,17 @@
 import { useState } from "react"
+import iphoneBlue from "../assets/images/iphone-blue.jpg";
+import iphoneSilver from "../assets/images/iphone-silver.jpg";
+import iphoneOrange from "../assets/images/iphone-orange.jpg";
 
 
 function Colors() {
 
     const colors = [
-        { id: 'blue', name: 'Titânio Azul', image: '/images/iphone-blue.jpg', colorClass: 'bg-blue-500' },
-        { id: 'silver', name: 'Titânio Natural', image: '/images/iphone-silver.jpg', colorClass: 'bg-gray-300' },
-        { id: 'orange', name: 'Titânio Laranja', image: '/images/iphone-orange.jpg', colorClass: 'bg-orange-500' }
-    ]
+        { id: 'blue', name: 'Titânio Azul', image: iphoneBlue, colorClass: 'bg-blue-500' },
+        { id: 'silver', name: 'Titânio Natural', image: iphoneSilver, colorClass: 'bg-gray-300' },
+        { id: 'orange', name: 'Titânio Laranja', image: iphoneOrange, colorClass: 'bg-orange-500' }
+    ];
+
 
     const models = [
         { name: 'Pro Max', screen: '6.9 polegadas', storage: '256GB, 512GB ou 1TB', battery: '33h de vídeo', weight: '221g' },

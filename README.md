@@ -1,16 +1,40 @@
-# React + Vite
+# Apple iPhone Website — React + Vite + TailwindCSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um site moderno inspirado na página oficial do iPhone da Apple, desenvolvido com React, Vite e TailwindCSS.
 
-Currently, two official plugins are available:
+## Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Acesse o site: [link](https://isabellatressino.github.io/iphone-website-react-tailwind/)
 
-## React Compiler
+## Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- TailwindCSS
 
-## Expanding the ESLint configuration
+## Como rodar o projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/isabellatressino/iphone-website-react-tailwind.git
+```
+
+### 2. Instale as dependências
+
+```bash
+npm install
+```
+
+### 3. Execute o servidor local
+
+```bash
+npm run dev
+```
+
+## Créditos
+
+Projeto baseado na vídeo aula: [youtube](https://www.youtube.com/watch?v=wLHOCB2U2BY)
+
+
+
